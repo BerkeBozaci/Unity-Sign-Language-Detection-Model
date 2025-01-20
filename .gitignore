@@ -1,0 +1,7 @@
+*.jpg
+*.mp4
+*.csv
+*.txt
+*/videos
+*/processed_frames
+*.npy
