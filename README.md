@@ -17,6 +17,7 @@
 - This will greatly reduce the input size per frame and make it more manageable for the LSTM to learn the temporal patterns.
 
 - Tried a sample LSTM training model with 10 epoch with current dataset but result is not that good.
+
   - Epoch [1/10] | Train Loss: 1.1036 | Val Loss: 1.0839 | Val Acc: 33.33%
   - Epoch [2/10] | Train Loss: 1.0214 | Val Loss: 1.2446 | Val Acc: 44.44%
   - Epoch [3/10] | Train Loss: 0.9519 | Val Loss: 1.1946 | Val Acc: 55.56%
@@ -28,4 +29,13 @@
   - Epoch [9/10] | Train Loss: 0.8131 | Val Loss: 1.3327 | Val Acc: 55.56%
   - Epoch [10/10] | Train Loss: 0.8092 | Val Loss: 1.3636 | Val Acc: 55.56%
   - Test Loss: 1.3916, Test Accuracy: 55.56%
+
 - There is overfitting, caused from small dataset but before going complex we wanted to move with a small dataset.
+
+#### Direct LSTM Approach
+
+Room -> Room
+Teach -> Teach
+Class -> Teach
+
+- Class and teach are not very similar to each other
