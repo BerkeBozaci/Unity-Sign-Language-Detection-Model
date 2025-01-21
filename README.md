@@ -34,8 +34,8 @@
 
 #### Direct LSTM Approach
 
-Room -> Room
-Teach -> Teach
-Class -> Teach
+- Room -> Room
+- Teach -> Teach
+- Class -> Teach
 
 - Class and teach are not very similar to each other
