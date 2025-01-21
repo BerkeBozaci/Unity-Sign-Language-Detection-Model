@@ -34,8 +34,31 @@
 
 #### Direct LSTM Approach
 
-- Room -> Room
-- Teach -> Teach
-- Class -> Teach
+- Tested twice with different unseen dataset
+- Room -> Room, Room
+- Teach -> Teach, Teach
+- Class -> Teach, Class
 
 - Class and teach are not very similar to each other
+
+### 3D CNN
+
+- Used same dataset as LSTM trainning dataset
+
+- Epoch [1/10] | Train Loss: 0.7902 | Val Loss: 0.0574 | Val Acc: 100.00%
+- Epoch [2/10] | Train Loss: 0.3963 | Val Loss: 0.0095 | Val Acc: 100.00%
+- Epoch [3/10] | Train Loss: 0.3648 | Val Loss: 0.0191 | Val Acc: 100.00%
+- Epoch [4/10] | Train Loss: 0.3410 | Val Loss: 0.0058 | Val Acc: 100.00%
+- Epoch [5/10] | Train Loss: 0.1836 | Val Loss: 0.0063 | Val Acc: 100.00%
+- Epoch [6/10] | Train Loss: 0.2123 | Val Loss: 0.0107 | Val Acc: 100.00%
+- Epoch [7/10] | Train Loss: 0.2024 | Val Loss: 0.0031 | Val Acc: 100.00%
+- Epoch [8/10] | Train Loss: 0.1141 | Val Loss: 0.0057 | Val Acc: 100.00%
+- Epoch [9/10] | Train Loss: 0.1413 | Val Loss: 0.0061 | Val Acc: 100.00%
+- Epoch [10/10] | Train Loss: 0.0746 | Val Loss: 0.0039 | Val Acc: 100.00%
+- Test Loss: 0.0077, Test Accuracy: 100.00%
+- 46 minute of trainning
+
+- Tested twice with different unseen dataset
+- Room -> Room, Room
+- Teach -> Teach, Teach
+- Class -> Class, Class
