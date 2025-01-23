@@ -62,3 +62,5 @@
 - Room -> Room, Room
 - Teach -> Teach, Teach
 - Class -> Class, Class
+
+## Retrained Direct LSTM Approach with Larger Dataset (20 videos per 20 word = 400 videos)
