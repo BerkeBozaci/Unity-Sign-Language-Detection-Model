@@ -65,28 +65,29 @@
 
 ## Retrained Direct LSTM Approach with Larger Dataset (20 videos per 20 word = 400 videos)
 
-Epoch [1/20] | Train Loss: 2.9426 | Val Loss: 2.8036 | Val Acc: 15.00%
-Epoch [2/20] | Train Loss: 2.7332 | Val Loss: 2.7787 | Val Acc: 13.33%
-Epoch [3/20] | Train Loss: 2.6649 | Val Loss: 2.7415 | Val Acc: 13.33%
-Epoch [4/20] | Train Loss: 2.6351 | Val Loss: 2.7327 | Val Acc: 16.67%
-Epoch [5/20] | Train Loss: 2.6161 | Val Loss: 2.7207 | Val Acc: 18.33%
-Epoch [6/20] | Train Loss: 2.5942 | Val Loss: 2.7522 | Val Acc: 18.33%
-Epoch [7/20] | Train Loss: 2.5669 | Val Loss: 2.7204 | Val Acc: 20.00%
-Epoch [8/20] | Train Loss: 2.5593 | Val Loss: 2.7328 | Val Acc: 16.67%
-Epoch [9/20] | Train Loss: 2.5374 | Val Loss: 2.7250 | Val Acc: 18.33%
-Epoch [10/20] | Train Loss: 2.5352 | Val Loss: 2.7103 | Val Acc: 18.33%
-Epoch [11/20] | Train Loss: 2.5023 | Val Loss: 2.7313 | Val Acc: 20.00%
-Epoch [12/20] | Train Loss: 2.5070 | Val Loss: 2.7889 | Val Acc: 16.67%
-Epoch [13/20] | Train Loss: 2.4987 | Val Loss: 2.7675 | Val Acc: 20.00%
-Epoch [14/20] | Train Loss: 2.4679 | Val Loss: 2.7913 | Val Acc: 20.00%
-Epoch [15/20] | Train Loss: 2.4636 | Val Loss: 2.7707 | Val Acc: 18.33%
-Epoch [16/20] | Train Loss: 2.4491 | Val Loss: 2.8213 | Val Acc: 18.33%
-Epoch [17/20] | Train Loss: 2.4609 | Val Loss: 2.8498 | Val Acc: 18.33%
-Epoch [18/20] | Train Loss: 2.4599 | Val Loss: 2.8224 | Val Acc: 18.33%
-Epoch [19/20] | Train Loss: 2.4339 | Val Loss: 2.8308 | Val Acc: 16.67%
-Epoch [20/20] | Train Loss: 2.4154 | Val Loss: 2.8442 | Val Acc: 15.00%
-Test Loss: 2.7634, Test Accuracy: 8.33%
-Model saved.
+- Epoch [1/20] | Train Loss: 2.9426 | Val Loss: 2.8036 | Val Acc: 15.00%
+- Epoch [3/20] | Train Loss: 2.6649 | Val Loss: 2.7415 | Val Acc: 13.33%
+- Epoch [2/20] | Train Loss: 2.7332 | Val Loss: 2.7787 | Val Acc: 13.33%
+- Epoch [4/20] | Train Loss: 2.6351 | Val Loss: 2.7327 | Val Acc: 16.67%
+- Epoch [5/20] | Train Loss: 2.6161 | Val Loss: 2.7207 | Val Acc: 18.33%
+- Epoch [6/20] | Train Loss: 2.5942 | Val Loss: 2.7522 | Val Acc: 18.33%
+- Epoch [7/20] | Train Loss: 2.5669 | Val Loss: 2.7204 | Val Acc: 20.00%
+- Epoch [8/20] | Train Loss: 2.5593 | Val Loss: 2.7328 | Val Acc: 16.67%
+- Epoch [9/20] | Train Loss: 2.5374 | Val Loss: 2.7250 | Val Acc: 18.33%
+- Epoch [10/20] | Train Loss: 2.5352 | Val Loss: 2.7103 | Val Acc: 18.33%
+- Epoch [11/20] | Train Loss: 2.5023 | Val Loss: 2.7313 | Val Acc: 20.00%
+- Epoch [12/20] | Train Loss: 2.5070 | Val Loss: 2.7889 | Val Acc: 16.67%
+- Epoch [13/20] | Train Loss: 2.4987 | Val Loss: 2.7675 | Val Acc: 20.00%
+- Epoch [14/20] | Train Loss: 2.4679 | Val Loss: 2.7913 | Val Acc: 20.00%
+- Epoch [15/20] | Train Loss: 2.4636 | Val Loss: 2.7707 | Val Acc: 18.33%
+- Epoch [16/20] | Train Loss: 2.4491 | Val Loss: 2.8213 | Val Acc: 18.33%
+- Epoch [17/20] | Train Loss: 2.4609 | Val Loss: 2.8498 | Val Acc: 18.33%
+- Epoch [18/20] | Train Loss: 2.4599 | Val Loss: 2.8224 | Val Acc: 18.33%
+- Epoch [19/20] | Train Loss: 2.4339 | Val Loss: 2.8308 | Val Acc: 16.67%
+- Epoch [20/20] | Train Loss: 2.4154 | Val Loss: 2.8442 | Val Acc: 15.00%
+
+  - Test Loss: 2.7634, Test Accuracy: 8.33%
+  - Model saved.
 
 - Tested twice with different unseen dataset
 - Room -> Right, Break
