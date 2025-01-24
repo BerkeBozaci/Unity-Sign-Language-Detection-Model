@@ -2,8 +2,8 @@ import os
 import random
 import csv
 
-DATA_DIR = "processed_frames" 
-OUTPUT_SPLIT_CSV = "dataset_split.csv" 
+DATA_DIR = "processed_frames_10" 
+OUTPUT_SPLIT_CSV = "dataset_split_10.csv" 
 random_seed = 42  
 
 train_ratio = 0.70

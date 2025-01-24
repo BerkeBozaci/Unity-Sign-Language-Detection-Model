@@ -4,8 +4,8 @@ import numpy as np
 
 TARGET_FRAME_COUNT = 120  
 FRAME_SIZE = (256, 256)  
-DATASET_DIR = "videos"  
-OUTPUT_DIR = "processed_frames"  
+DATASET_DIR = "videos_10"  
+OUTPUT_DIR = "processed_frames_10"  
 
 def extract_frames(video_path, target_frame_count, frame_size):
     """
