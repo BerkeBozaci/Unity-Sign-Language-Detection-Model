@@ -5,3 +5,4 @@
 */videos
 */processed_frames
 *.npy
+*.pth
